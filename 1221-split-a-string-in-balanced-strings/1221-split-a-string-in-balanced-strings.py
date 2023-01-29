@@ -5,7 +5,7 @@ class Solution(object):
         for c in s:
             if c == 'R':
                 stk += 1
-            if c == 'L':
+            elif c == 'L':
                 stk -= 1
             if stk == 0:
                 cnt += 1
